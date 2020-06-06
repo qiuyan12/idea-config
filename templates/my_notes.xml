@@ -1,5 +1,5 @@
 <templateSet group="my_notes">
-  <template name="mmm" value="/**&#10; * @Title:$Title$&#10; * @author: edwin @date $date$ $time$ &#10; * @description TODO&#10; * @param $param$&#10; * @return $return$&#10; */&#10;" description="方法注解" toReformat="false" toShortenFQNames="true">
+  <template name="mmm" value="/**&#10; * @Title:$Title$ @author: edwin @date $date$ $time$ &#10; * @description TODO&#10; * @param $param$&#10; * @return $return$&#10; */&#10;" description="方法注解" toReformat="false" toShortenFQNames="true">
     <variable name="Title" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
