@@ -1,5 +1,5 @@
 <templateSet group="my_notes">
-  <template name="mmm" value="/**&#10; * @title $Title$ @author edwin @date $date$ $time$ &#10; * @description TODO&#10; * @param $param$&#10; * @return $return$&#10; */&#10;" description="方法注解" toReformat="false" toShortenFQNames="true">
+  <template name="mmm" value="/**&#10; * @Title $Title$ @Author edwin @Date $date$ $time$ &#10; * @Description TODO&#10; * @Param $param$&#10; * @Return $return$&#10; */&#10;" description="方法注解" toReformat="false" toShortenFQNames="true">
     <variable name="Title" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
@@ -9,7 +9,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="ccc" value="/**&#10; * @ClassName $ClassName$ &#10; * @author edwin @date $date$ $time$ &#10; * @description&#10; * @version V1.0.0&#10; */" description="类注解" toReformat="false" toShortenFQNames="true">
+  <template name="ccc" value="/**&#10; * @ClassName $ClassName$ &#10; * @Author edwin @Date $date$ $time$ &#10; * @Description&#10; * @Version V1.0.0&#10; */" description="类注解" toReformat="false" toShortenFQNames="true">
     <variable name="ClassName" expression="className()" defaultValue="" alwaysStopAt="true" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
