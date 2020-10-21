@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="sys_entity_folder_addr" type="PLAIN_TEXT" />
+      <mapping pattern="sys_attachment" type="PLAIN_TEXT" />
       <mapping pattern="my_app_version" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
