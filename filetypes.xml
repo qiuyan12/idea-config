@@ -5,9 +5,9 @@
       <mapping pattern="sys_attachment" type="PLAIN_TEXT" />
       <mapping pattern="my_app_version" type="PLAIN_TEXT" />
       <mapping pattern="my_wip_std_process" type="PLAIN_TEXT" />
+      <mapping pattern="my_wip_std_operation_process" type="SQL" />
       <mapping pattern="my_bom_std_operation" type="SQL" />
       <mapping pattern="my_bom_std_operation_process" type="SQL" />
-      <mapping pattern="my_wip_std_operation_process" type="SQL" />
     </extensionMap>
   </component>
 </application>
