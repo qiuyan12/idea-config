@@ -1,15 +1,15 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="19">
     <extensionMap>
+      <mapping pattern="my_app_version" type="PLAIN_TEXT" />
       <mapping pattern="sys_entity_folder_addr" type="PLAIN_TEXT" />
+      <mapping pattern="my_inv_agv_material_call" type="PLAIN_TEXT" />
+      <mapping pattern="my_wip_std_process" type="PLAIN_TEXT" />
       <mapping pattern="sys_attachment" type="PLAIN_TEXT" />
       <mapping pattern="my_inv_agv_material_call .sql" type="PLAIN_TEXT" />
-      <mapping pattern="my_inv_agv_material_call" type="PLAIN_TEXT" />
-      <mapping pattern="my_app_version" type="PLAIN_TEXT" />
-      <mapping pattern="my_wip_std_process" type="PLAIN_TEXT" />
       <mapping pattern="my_bom_std_operation" type="SQL" />
-      <mapping pattern="my_bom_std_operation_process" type="SQL" />
       <mapping pattern="my_wip_std_operation_process" type="SQL" />
+      <mapping pattern="my_bom_std_operation_process" type="SQL" />
     </extensionMap>
   </component>
 </application>
